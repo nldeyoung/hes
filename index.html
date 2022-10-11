@@ -79,7 +79,7 @@
 		</header>
 		<!-- /* ++++++++++++++++++++++++++++++++++++ main section 1 ++++++++++++++++++++++++++++++++ */ -->
 		<main>
-			<div
+			<section
 				class="container__main1__opportunities"
 				id="container__main1__opportunities--img"
 			>
@@ -177,7 +177,9 @@
 				</div>
 				<div class="main1__left__row3 d">
 					<div class="box g"></div>
-					<div class="box e"><h3 class="margrow2">Premedical Studies</h3></div>
+					<div class="box e">
+						<h3 class="margrow2">Premedical Studies</h3>
+					</div>
 					<div class="box f">
 						<ul>
 							<li>
@@ -238,21 +240,28 @@
 						</ul>
 					</div>
 				</div>
-			</div>
+			</section>
 			<!-- /* ++++++++++++++++++++++++++++++++++++ main section 2 ++++++++++++++++++++++++++++++++ */ -->
-			<div class="studentsuccess">
-				<h2>Student Success Stories</h2>
-				<p>
-					Learn about the Harvard Extension experience from people who have
-					lived it. See what our current students and alumni have to say about
-					our courses, faculty, and the impact that continuing education has had
-					on their lives and careers.
-				</p>
-				<div class="articles">
+
+			<div class="section2__container">
+				<div class="mainsection2__header">
+					<div class="mainsection2__header--op">
+						<h2>Student Success Stories</h2>
+					</div>
+					<p class="mainsection2__header--p">
+						Learn about the Harvard Extension experience from people who have
+						lived it. See what our current students and alumni have to say about
+						our courses, faculty, and the impact that continuing education has
+						had on their lives and careers.
+					</p>
+				</div>
+				<div class="mainsection2__card1">
 					<article>
 						<img
 							src="images/student-success-bradley-thomas.jpg"
 							alt="Photo of Bradley Ashton"
+							object-fit="cover"
+							width="100%"
 						/>
 						<h3>Bradley Ashton Thomas</h3>
 						<ul>
@@ -264,11 +273,14 @@
 							you learn from that failure becomes the seeds of success.
 						</p>
 					</article>
-
+				</div>
+				<div class="mainsection2__card2">
 					<article>
 						<img
 							src="images/student-success-marilena-dania.jpg"
 							alt="Photo of Marilena Dania"
+							object-fit="cover"
+							width="100%"
 						/>
 						<h3>Marilena Dania</h3>
 						<ul>
@@ -282,10 +294,14 @@
 							supported me throughout.
 						</p>
 					</article>
+				</div>
+				<div class="mainsection2__card3">
 					<article>
 						<img
 							src="images/student-success-tazeen-hasan.jpg"
 							alt="Photo of Tazeen Hasan"
+							object-fit="cover"
+							width="100%"
 						/>
 						<h3>Tazeen Hasan</h3>
 						<ul>
@@ -301,25 +317,39 @@
 				</div>
 			</div>
 		</main>
+
+		<!-- ++++++++++++++++++++++ footer ++++++++++++++++++ -->
 		<footer>
-			<nav class="contactplus">
-				<ul>
-					<li><a href="#">Contact Us</a></li>
-					<li><a href="#">Forms</a></li>
-					<li><a href="#">Archives</a></li>
-				</ul>
-			</nav>
-
-			<p>Copyright &copy;2021 President and Fellows of Harvard College</p>
-
-			<nav class="privacyplus">
-				<ul>
-					<li><a href="#">Privacy</a></li>
-					<li><a href="#">Accessibility</a></li>
-					<li><a href="#">Rights &amp; Responsibilities</a></li>
-					<li><a href="#">Digital Accessibility Policy</a></li>
-				</ul>
-			</nav>
+			<div class="footer__container">
+				<div class="footer_contactus">
+					<nav>
+						<ul>
+							<li><a href="#" class="footer__nav">Contact Us</a></li>
+							<li><a href="#" class="footer__nav">Forms</a></li>
+							<li><a href="#" class="footer__nav">Archives</a></li>
+						</ul>
+					</nav>
+				</div>
+				<div class="footer__copyright">
+					Copyright &copy;2021 President and Fellows of Harvard College
+				</div>
+				<div class="footer_privacyplus">
+					<nav>
+						<ul>
+							<li><a href="#" class="footer__nav">Privacy</a></li>
+							<li><a href="#" class="footer__nav">Accessibility</a></li>
+							<li>
+								<a href="#" class="footer__nav"
+									>Rights &amp; Responsibilities</a
+								>
+							</li>
+							<li>
+								<a href="#" class="footer__nav">Digital Accessibility Policy</a>
+							</li>
+						</ul>
+					</nav>
+				</div>
+			</div>
 		</footer>
 	</body>
 </html>
